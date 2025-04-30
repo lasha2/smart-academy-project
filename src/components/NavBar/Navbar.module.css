@@ -1,0 +1,16 @@
+.container {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+.navbarItem {
+  flex: 1;
+}
+
+.activeTabStyle {
+  background-color: cadetblue;
+  flex: 1;
+}
