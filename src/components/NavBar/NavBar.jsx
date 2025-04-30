@@ -9,6 +9,7 @@ const DATA = [
   { id: 3, title: "JavaScript" },
   { id: 4, title: "Python" },
   { id: 5, title: "SQL" },
+  { id: 5, title: "C++" },
 ];
 
 const NavBar = () => {
