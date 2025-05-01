@@ -4,17 +4,13 @@ import NavBarItem from "./NavBarItem";
 import styles from "./Navbar.module.css";
 
 const DATA = [
-  { id: 1, title: "HTML", link: "html" },
-  { id: 2, title: "CSS", link: "css" },
-  { id: 3, title: "JavaScript", link: "javascript" },
-  { id: 4, title: "Python", link: "python" },
-  { id: 5, title: "SQL", link: "sql" },
-  { id: 6, title: "C++", link: "c++" },
-  { id: 7, title: "C#", link: "c#" },
+  { id: 1, title: "products", link: "/products" },
+  { id: 2, title: "cart", link: "/cart" },
+  { id: 3, title: "profile", link: "/profile" },
 ];
 
 const NavBar = () => {
-  const [activeTab, setActiveTab] = useState("HTML");
+  const [activeTab, setActiveTab] = useState("products");
 
   return (
     <>
